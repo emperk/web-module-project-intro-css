@@ -47,30 +47,6 @@ body {
 } */
 
 
-
-/*
-.plan{
-    background-color: #FF764E;
-    margin: 5% 5% 5% 15%;
-}
-
-.park{
-    background-color: #5ED3EB;
-    margin: 5% 5% 5% 8%;
-}
-
-.involved{
-    background-color: #FFCD69;
-    margin: 5% 5% 5% 8%;
-}
-
-
-nav a{
-
-}
-
-*/
-
 nav a {
     color: white;
     margin: 4%;
@@ -96,47 +72,58 @@ nav a {
 
 }
 
-.color-font {
-    color: black;
-    font-family: "Roboto Mono";
-}
 
 nav {
-    margin-top: 4%;
-    margin-bottom: 4%;
     margin-right: 9%;
     margin-left: 9%;
-    padding-right: 0%;
-    padding-left: 9%;
 }
 
+a.plan {
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
 
+a.park {
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+a.involved {
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
 
 .plan {
     background-color: #FF764E;
+    font-size: 1.4em;
     color: white;
     font-family: "Roboto Mono";
-    /* margin-left: 0%; */
+    margin-left: 4%;
     text-align: center;
-    margin: 5% 5% 5% 15%;
-  
+ 
 }
 
 .park {
     background-color: #5ED3EB;
-    /* margin-left: 14%; */
+    font-size: 1.4em;
+    margin-left: 17%;
     color: white;
     font-family: "Roboto Mono";
-    margin: 5% 5% 5% 8%;
 
 }
 
 .involved {
     background-color: #FFCD69;
-    /* margin-left: 7%; */
+    font-size: 1.4em;
+    margin-left: 14%;
     color: white;
     font-family: "Roboto Mono"; 
-    margin: 5% 5% 5% 8%;
 
 }
 
@@ -146,31 +133,42 @@ nav {
     display: inline-block;
 }
 
-/* #top-intro-img {
-
-} */
-
-#top-title {
-
-}
-
 h1 {
     font-size: 210%;
     font-family: "Chelsea Market";
     color: black;
     float: right;
     position: relative;
-    right: 390px;
-    bottom: 240px;
+    right: 192px;
+    bottom: 275px;
 }
 
-#top-intro p {
+#top-title, #top-intro {
+    padding-top: 7%;
+    font-weight: normal;
+    font-size: 2em;
+    right: 192px;
+    bottom: 275px;
+    
+}
+
+#top-intro {
     text-align: center;
+    font-weight: normal;
     float: right;
     position: relative;
-    right: 0.em;
-    bottom: 180px;    
+    right: 0em;
+    left: 4em;
+    bottom: 15em;
 }
+
+p {
+    right: 0em;
+    left: 0em;
+    top: 0em;
+    bottom: 0em;
+}
+
 
 #intro-img {
     height: 24%;
