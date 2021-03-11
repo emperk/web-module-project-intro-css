@@ -21,9 +21,9 @@ html{
 }
 
 
-* {
+/* * {
     border: 2px solid green;
-}
+} */
 
 body {
     background-color: white;
@@ -143,22 +143,30 @@ h1 {
     bottom: 275px;
 }
 
-#top-title, #top-intro {
+/* #top-title, #top-intro {
     padding-top: 7%;
     font-size: 2em;
     right: 192px;
     bottom: 275px;
     
+} */
+
+#top-title {
+    padding-top: 7%;
+    font-size: 2em;
+    right: 192px;
+    bottom: 275px;
 }
 
 #top-intro {
     text-align: center;
     font-weight: normal;
+    font-size: 2em;
     float: right;
     position: relative;
     right: 0em;
-    left: 4em;
-    bottom: 15em;
+    left: -4em;
+    bottom: 13em;
 }
 
 #top-intro p {
@@ -182,7 +190,7 @@ h1 {
     color: white;
     text-align: center;
     position: relative;
-    bottom: 50px;
+    bottom: 194px;
     margin: 2% 2% 2% 2%;
     padding: 1% 2% 1% 2%;
     font-size: 1.6em;
@@ -199,13 +207,13 @@ h1 {
     width: 10%;
     position: relative;
     left: 485px;
-    bottom: 45px;
+    bottom: 189px;
 }
 
 #info-fire {
     text-align: center;
     position: relative;
-    bottom: 35px;
+    bottom: 179px;
     right: 0px;
     left: 37px;
     padding-right: 40%;
@@ -216,31 +224,39 @@ h1 {
     height: 10%;
     width: 10%;
     position: relative;
-    left: 485px;
+    left: 479px;
+    bottom: 146px;
 }
 
 #info-camp {
     text-align: center;
     position: relative;
-    left: 43px;
+    left: 36px;
     right: 0px;
+    bottom: 144px;
     padding-right: 43%;
     padding-left: 41%;
 }
 
 /* FOOTER STYLINGS */
 
-footer {
-    background-color: #F9E7DC;
-    margin: 0%;
-}
-
 #foot-img {
     height: 90%;
     width: 100%;
     margin: 2% 0% 0% 0%;
     position: relative;
+    bottom: 68px;
 }
+
+footer {
+    background-color: #F9E7DC;
+    margin: 0%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    bottom: 10px;
+}
+
+
 
 
 
