@@ -1,12 +1,12 @@
 /* GENERAL STYLES */
+@import url('https://fonts.google.com/specimen/Chelsea+Market');
 
 
 html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td, 
-del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, 
-h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, 
+del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, 
 dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
 	vertical-align: baseline;
-	font-family: inherit;
+    font-family: inherit;
 	font-weight: inherit;
 	font-style: inherit;
 	font-size: 100%;
@@ -20,7 +20,6 @@ html{
    font-size: 62.5%; 
 }
 
-@import url('https://fonts.google.com/specimen/Chelsea+Market');
 
 * {
     border: 2px solid green;
@@ -28,7 +27,11 @@ html{
 
 body {
     background-color: white;
+    color: black;
+    font-family: "Roboto Mono";
 }
+
+
 
 /* NAVIGATION STYLING * /
 
@@ -43,17 +46,59 @@ body {
 
 } */
 
+
+
+/*
+.plan{
+    background-color: #FF764E;
+    margin: 5% 5% 5% 15%;
+}
+
+.park{
+    background-color: #5ED3EB;
+    margin: 5% 5% 5% 8%;
+}
+
+.involved{
+    background-color: #FFCD69;
+    margin: 5% 5% 5% 8%;
+}
+
+
+nav a{
+
+}
+
+*/
+
 nav a {
-    /* margin: 5%; */
-    border-radius: 10px;
     color: white;
-    border: 1px solid white;
+    margin: 4%;
+    border: 1% solid lightgray;
+    padding: 1%;
+    display: inline-block;
+    border-radius: 18px;
+    text-decoration: none;
+    margin-bottom: 10%;
+    text-align: center;
+    padding:1% 3.7% 1% 3.7%; 
+    margin:2%;
+    /* margin: 5%; */
+    /* border-radius: 10px; */
+    /* color: white; */
+    /* border: 1px solid white; */
     /* display: inline-block; */
     /* margin-bottom: 10%; */
-    padding: 2% 3% 2% 3%;
-    text-align: center;
-    width: 10%;
-    font-size: 1.5em;
+    /* padding: 2% 3% 2% 3%; */
+    /* text-align: center; */
+    /* width: 10%; */
+    /* font-size: 1.5em; */
+
+}
+
+.color-font {
+    color: black;
+    font-family: "Roboto Mono";
 }
 
 nav {
@@ -65,25 +110,34 @@ nav {
     padding-left: 9%;
 }
 
-/* .navigation {
-    display: block;
-
-} */
 
 
 .plan {
     background-color: #FF764E;
-
+    color: white;
+    font-family: "Roboto Mono";
+    /* margin-left: 0%; */
+    text-align: center;
+    margin: 5% 5% 5% 15%;
+  
 }
 
 .park {
     background-color: #5ED3EB;
-    margin-left: 14%;
+    /* margin-left: 14%; */
+    color: white;
+    font-family: "Roboto Mono";
+    margin: 5% 5% 5% 8%;
+
 }
 
 .involved {
     background-color: #FFCD69;
-    margin-left: 14%;
+    /* margin-left: 7%; */
+    color: white;
+    font-family: "Roboto Mono"; 
+    margin: 5% 5% 5% 8%;
+
 }
 
 /* TOP YOSEMITE TITLE & INTRO */
@@ -96,9 +150,14 @@ nav {
 
 } */
 
-#top-title h1 {
+#top-title {
+
+}
+
+h1 {
     font-size: 210%;
     font-family: "Chelsea Market";
+    color: black;
     float: right;
     position: relative;
     right: 390px;
@@ -139,22 +198,39 @@ nav {
 }
 
 #campfire-img {
-
+    height: 10%;
+    width: 10%;
+    position: relative;
+    left: 510px;
+    bottom: 45px;
 }
 
 #info-fire {
-
+    text-align: center;
+    position: relative;
+    bottom: 35px;
+    right: 5px;
 }
 
 #camper-img {
-
+    height: 10%;
+    width: 10%;
+    position: relative;
+    left: 505px;
 }
 
 #info-camp {
-
+    text-align: center;
+    position: relative;
+    left: 5px;
 }
 
 /* FOOTER STYLINGS */
+
+footer {
+    background-color: #F9E7DC;
+    margin: 0%;
+}
 
 #foot-img-sec {
 
