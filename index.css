@@ -145,7 +145,6 @@ h1 {
 
 #top-title, #top-intro {
     padding-top: 7%;
-    font-weight: normal;
     font-size: 2em;
     right: 192px;
     bottom: 275px;
@@ -163,10 +162,9 @@ h1 {
 }
 
 p {
-    right: 0em;
-    left: 0em;
-    top: 0em;
-    bottom: 0em;
+    font-size: 1em;
+    font-weight: normal;
+
 }
 
 
@@ -230,16 +228,11 @@ footer {
     margin: 0%;
 }
 
-#foot-img-sec {
-
-}
-
-#foot-img-container {
-
-}
-
 #foot-img {
-
+    height: 90%;
+    width: 100%;
+    margin: 2% 0% 0% 0%;
+    position: relative;
 }
 
 
