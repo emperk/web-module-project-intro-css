@@ -7,7 +7,7 @@ del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, 
 dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
 	vertical-align: baseline;
     font-family: inherit;
-	font-weight: inherit;
+	/* font-weight: inherit; */
 	font-style: inherit;
 	font-size: 100%;
 	outline: 0;
@@ -161,8 +161,8 @@ h1 {
     bottom: 15em;
 }
 
-p {
-    font-size: 1em;
+#top-intro p {
+    font-size: 0.7em;
     font-weight: normal;
 
 }
@@ -185,6 +185,7 @@ p {
     bottom: 50px;
     margin: 2% 2% 2% 2%;
     padding: 1% 2% 1% 2%;
+    font-size: 1.6em;
 }
 
 /* CAMPFIRE & CAMPER INFO STYLING */
@@ -197,7 +198,7 @@ p {
     height: 10%;
     width: 10%;
     position: relative;
-    left: 510px;
+    left: 485px;
     bottom: 45px;
 }
 
@@ -205,20 +206,26 @@ p {
     text-align: center;
     position: relative;
     bottom: 35px;
-    right: 5px;
+    right: 0px;
+    left: 37px;
+    padding-right: 40%;
+    padding-left: 40%;
 }
 
 #camper-img {
     height: 10%;
     width: 10%;
     position: relative;
-    left: 505px;
+    left: 485px;
 }
 
 #info-camp {
     text-align: center;
     position: relative;
-    left: 5px;
+    left: 43px;
+    right: 0px;
+    padding-right: 43%;
+    padding-left: 41%;
 }
 
 /* FOOTER STYLINGS */
